@@ -1,0 +1,28 @@
+stage_raw,stage_std,is_early
+pre-seed,Seed,1
+preseed,Seed,1
+seed,Seed,1
+seed+,Seed,1
+angel,Seed,1
+friends and family,Seed,1
+series a,Series_A,1
+series-a,Series_A,1
+round a,Series_A,1
+a,Series_A,1
+series b,Series_B_plus,0
+series-b,Series_B_plus,0
+round b,Series_B_plus,0
+b,Series_B_plus,0
+series c,Series_B_plus,0
+series-c,Series_B_plus,0
+c,Series_B_plus,0
+series d,Series_B_plus,0
+series e,Series_B_plus,0
+growth,Series_B_plus,0
+late stage,Series_B_plus,0
+bridge,Series_B_plus,0
+extension,Series_B_plus,0
+grant,Grant,0
+non-dilutive,Grant,0
+undisclosed,Unknown,0
+unknown,Unknown,0

@@ -1,0 +1,54 @@
+# Environment
+.venv/
+venv/
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data (raw data not committed)
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/README.md
+
+# Interim data (usually not committed)
+data/interim/*
+!data/interim/.gitkeep
+
+# Processed data (optional: commit final outputs)
+# data/processed/*
+# !data/processed/.gitkeep
+
+# Logs
+logs/*
+!logs/.gitkeep
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Secrets
+*.pem
+*.key
+credentials.json

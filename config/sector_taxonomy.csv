@@ -1,0 +1,68 @@
+sector_raw,sector_std,is_hardtech
+fintech,fintech,0
+payments,fintech,0
+lending,fintech,0
+banking,fintech,0
+insurance,insurtech,0
+insurtech,insurtech,0
+neo bank,fintech,0
+neobank,fintech,0
+healthtech,healthtech,1
+health,healthtech,1
+medtech,medtech,1
+biotech,biotech,1
+diagnostics,diagnostics,1
+therapeutics,therapeutics,1
+cleantech,cleantech,1
+energy,energy,1
+solar,renewables,1
+renewables,renewables,1
+battery,battery,1
+ev,ev,1
+electric vehicle,ev,1
+climate tech,climate_tech,1
+climate,climate_tech,1
+agritech,agritech_general,0
+agtech,agritech_general,0
+precision agriculture,agritech_precision,1
+farm tech,agritech_precision,1
+agritech hardware,agritech_precision,1
+agritech iot,agritech_iot,1
+logistics,logistics_tech,1
+supply chain,supply_chain_tech,1
+last mile,logistics_tech,1
+freight,logistics_tech,1
+ecommerce,ecommerce,0
+e-commerce,ecommerce,0
+marketplace,marketplace,0
+retail,ecommerce,0
+edtech,edtech,0
+education,edtech,0
+e-learning,edtech,0
+media,media,0
+entertainment,entertainment,0
+content,media,0
+gaming,entertainment,0
+hr,hr_tech,0
+recruitment,hr_tech,0
+hrtech,hr_tech,0
+payroll,hr_tech,0
+proptech,proptech,0
+real estate,proptech,0
+construction tech,proptech,0
+ai,ai,1
+artificial intelligence,ai,1
+machine learning,ml,1
+ml,ml,1
+hardware,hardware,1
+iot,iot,1
+robotics,robotics,1
+deeptech,deeptech,1
+deep tech,deeptech,1
+spacetech,spacetech,1
+mobility,mobility,0
+transport,mobility,0
+ride-hailing,mobility,0
+saas,enterprise_saas,0
+b2b,enterprise_saas,0
+enterprise,enterprise_saas,0

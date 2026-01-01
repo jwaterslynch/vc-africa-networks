@@ -1,0 +1,38 @@
+type_raw,type_std
+venture capital,IVC
+vc,IVC
+vc fund,IVC
+independent vc,IVC
+africa vc,IVC
+africa-focused vc,IVC
+pan-african vc,IVC
+corporate venture,CVC
+cvc,CVC
+strategic investor,CVC
+corporate,CVC
+dfi,DFI
+development finance,DFI
+ifc,DFI
+fmo,DFI
+cdc,DFI
+bii,DFI
+proparco,DFI
+afdb,DFI
+eib,DFI
+angel,Angel_Family
+angel investor,Angel_Family
+angel network,Angel_Family
+family office,Angel_Family
+hnw,Angel_Family
+high net worth,Angel_Family
+accelerator,Accelerator
+incubator,Accelerator
+y combinator,Accelerator
+techstars,Accelerator
+flat6labs,Accelerator
+500 startups,Accelerator
+pe fund,Other
+private equity,Other
+hedge fund,Other
+crowdfunding,Other
+spv,Other

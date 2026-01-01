@@ -1,0 +1,69 @@
+country_name,iso_alpha2,region,in_africa
+Algeria,DZ,North Africa,1
+Angola,AO,Southern Africa,1
+Benin,BJ,West Africa,1
+Botswana,BW,Southern Africa,1
+Burkina Faso,BF,West Africa,1
+Burundi,BI,East Africa,1
+Cabo Verde,CV,West Africa,1
+Cameroon,CM,Central Africa,1
+Central African Republic,CF,Central Africa,1
+Chad,TD,Central Africa,1
+Comoros,KM,East Africa,1
+Congo,CG,Central Africa,1
+Democratic Republic of the Congo,CD,Central Africa,1
+Cote d'Ivoire,CI,West Africa,1
+Ivory Coast,CI,West Africa,1
+Djibouti,DJ,East Africa,1
+Egypt,EG,North Africa,1
+Equatorial Guinea,GQ,Central Africa,1
+Eritrea,ER,East Africa,1
+Eswatini,SZ,Southern Africa,1
+Swaziland,SZ,Southern Africa,1
+Ethiopia,ET,East Africa,1
+Gabon,GA,Central Africa,1
+Gambia,GM,West Africa,1
+Ghana,GH,West Africa,1
+Guinea,GN,West Africa,1
+Guinea-Bissau,GW,West Africa,1
+Kenya,KE,East Africa,1
+Lesotho,LS,Southern Africa,1
+Liberia,LR,West Africa,1
+Libya,LY,North Africa,1
+Madagascar,MG,East Africa,1
+Malawi,MW,Southern Africa,1
+Mali,ML,West Africa,1
+Mauritania,MR,West Africa,1
+Mauritius,MU,East Africa,1
+Morocco,MA,North Africa,1
+Mozambique,MZ,Southern Africa,1
+Namibia,NA,Southern Africa,1
+Niger,NE,West Africa,1
+Nigeria,NG,West Africa,1
+Rwanda,RW,East Africa,1
+Sao Tome and Principe,ST,Central Africa,1
+Senegal,SN,West Africa,1
+Seychelles,SC,East Africa,1
+Sierra Leone,SL,West Africa,1
+Somalia,SO,East Africa,1
+South Africa,ZA,Southern Africa,1
+South Sudan,SS,East Africa,1
+Sudan,SD,North Africa,1
+Tanzania,TZ,East Africa,1
+Togo,TG,West Africa,1
+Tunisia,TN,North Africa,1
+Uganda,UG,East Africa,1
+Zambia,ZM,Southern Africa,1
+Zimbabwe,ZW,Southern Africa,1
+United States,US,North America,0
+United Kingdom,GB,Europe,0
+France,FR,Europe,0
+Germany,DE,Europe,0
+Netherlands,NL,Europe,0
+Sweden,SE,Europe,0
+Switzerland,CH,Europe,0
+United Arab Emirates,AE,Middle East,0
+Singapore,SG,Asia,0
+China,CN,Asia,0
+Japan,JP,Asia,0
+India,IN,Asia,0
