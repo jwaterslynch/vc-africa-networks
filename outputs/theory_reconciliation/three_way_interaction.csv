@@ -1,0 +1,8 @@
+variable,coef,se,p_value
+density_std,-0.4408,0.1662,0.008
+diversity_std,0.1765,0.1946,0.3645
+hq_in_africa,0.0183,0.2463,0.9408
+density_x_diversity,0.1103,0.1763,0.5317
+density_x_african,0.3904,0.2275,0.0862
+diversity_x_african,0.3134,0.2708,0.2472
+triple,-0.0745,0.2262,0.742

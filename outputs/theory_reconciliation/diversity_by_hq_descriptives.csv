@@ -1,0 +1,7 @@
+variable,african,international,diff,p_value
+diversity_type,0.564,0.568,-0.004,0.7697
+diversity_geo,0.46,0.351,0.109,0.0
+diversity_combined,0.405,0.175,0.23,0.0001
+pct_local,0.296,0.105,0.191,0.0
+pct_regional,0.136,0.139,-0.003,0.7947
+pct_international,0.536,0.722,-0.186,0.0

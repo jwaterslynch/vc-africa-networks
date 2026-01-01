@@ -1,0 +1,6 @@
+model,density_x_diversity,p_div,density_x_african,p_afr
+both_interactions,0.076,0.5795,0.28,0.1433
+hq_no_diversity,,,0.292,0.1246
+hq_with_diversity,,,0.285,0.134
+diversity_no_hq,0.085,0.5372,,
+diversity_with_hq,0.086,0.5323,,
