@@ -29,7 +29,7 @@ Moving from low to high network density:
 
 ```bash
 # Clone the repository
-git clone https://github.com/[username]/vc-africa-networks.git
+git clone https://github.com/jwaterslynch/vc-africa-networks.git
 cd vc-africa-networks
 
 # Install dependencies
@@ -37,6 +37,25 @@ pip install -r requirements.txt
 
 # Run replication script
 python scripts/replicate.py
+```
+
+### Python Environment Note
+
+On macOS, if you encounter `ModuleNotFoundError: No module named 'pandas'` despite having packages installed, your shell's `python3` may point to Homebrew Python (which is "externally managed"). Use the system Python explicitly:
+
+```bash
+# Check which Python has packages installed
+/usr/bin/python3 -c "import pandas; print(pandas.__version__)"
+
+# Run with system Python if needed
+/usr/bin/python3 scripts/replicate.py --full
+```
+
+Or use Docker for a guaranteed environment:
+
+```bash
+docker build -t vc-africa-networks .
+docker run -v /path/to/data:/app/data/raw vc-africa-networks python scripts/replicate.py --full
 ```
 
 ### Replication Modes
