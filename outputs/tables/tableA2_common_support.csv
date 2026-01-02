@@ -1,0 +1,5 @@
+Specification,N_Intl,N_African,Intl_beta,Intl_se,African_beta,African_se,z_stat,p_value
+Main (GEE),606,295,-0.549,0.173,0.241,0.212,2.88,0.0039
+Common Support,606,294,-0.548,0.173,0.255,0.214,2.92,0.0035
+Trim 10%,541,264,-0.488,0.191,0.523,0.247,3.24,0.0012
+Weighted (n\_deals),606,295,-0.7,0.141,0.188,0.188,3.78,0.0002

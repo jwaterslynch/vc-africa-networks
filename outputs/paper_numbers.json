@@ -1,0 +1,368 @@
+{
+  "generated_at": "2026-01-02T14:28:23.005221",
+  "sample": {
+    "n_deals": 4173,
+    "n_investors": 558,
+    "n_vc_years": 901,
+    "n_international": 606,
+    "n_african": 295,
+    "years": [
+      2022,
+      2023,
+      2024
+    ]
+  },
+  "descriptives": {
+    "hrv_share": {
+      "mean": 0.122,
+      "sd": 0.276
+    },
+    "ego_density": {
+      "mean": 0.574,
+      "sd": 0.335
+    },
+    "ego_density_intl": {
+      "mean": 0.61,
+      "sd": 0.34
+    },
+    "ego_density_african": {
+      "mean": 0.501,
+      "sd": 0.312
+    },
+    "diversity": {
+      "mean": 0.25,
+      "sd": 0.807
+    },
+    "ego_size": {
+      "mean": 20.0,
+      "sd": 24.7
+    },
+    "experience": {
+      "mean": 8.0,
+      "sd": 13.9
+    },
+    "n_deals_per_year": {
+      "mean": 3.1,
+      "sd": 5.1
+    }
+  },
+  "pooled_models": {
+    "model1_density": {
+      "beta": -0.353,
+      "se": 0.146,
+      "p": 0.0157
+    },
+    "model2_diversity": {
+      "beta": 0.336,
+      "se": 0.143,
+      "p": 0.0188
+    },
+    "model3_density_x_diversity": {
+      "beta": 0.085,
+      "se": 0.137,
+      "p": 0.5372
+    },
+    "model4_density_x_african": {
+      "beta": 0.285,
+      "se": 0.19,
+      "p": 0.134
+    },
+    "full_results": {
+      "model1": {
+        "const": {
+          "beta": -1.469,
+          "se": 0.379,
+          "p": 0.0001
+        },
+        "density_std": {
+          "beta": -0.353,
+          "se": 0.146,
+          "p": 0.0157
+        },
+        "log_ego_size": {
+          "beta": -0.433,
+          "se": 0.151,
+          "p": 0.0042
+        },
+        "log_experience": {
+          "beta": 0.258,
+          "se": 0.143,
+          "p": 0.0715
+        },
+        "year_2023": {
+          "beta": 0.057,
+          "se": 0.19,
+          "p": 0.7653
+        },
+        "year_2024": {
+          "beta": 0.357,
+          "se": 0.201,
+          "p": 0.0755
+        }
+      },
+      "model2": {
+        "const": {
+          "beta": -1.254,
+          "se": 0.39,
+          "p": 0.0013
+        },
+        "density_std": {
+          "beta": -0.322,
+          "se": 0.144,
+          "p": 0.0252
+        },
+        "diversity_std": {
+          "beta": 0.336,
+          "se": 0.143,
+          "p": 0.0188
+        },
+        "log_ego_size": {
+          "beta": -0.563,
+          "se": 0.164,
+          "p": 0.0006
+        },
+        "log_experience": {
+          "beta": 0.267,
+          "se": 0.145,
+          "p": 0.0654
+        },
+        "year_2023": {
+          "beta": 0.067,
+          "se": 0.191,
+          "p": 0.7272
+        },
+        "year_2024": {
+          "beta": 0.347,
+          "se": 0.201,
+          "p": 0.0843
+        }
+      },
+      "model3": {
+        "const": {
+          "beta": -1.316,
+          "se": 0.425,
+          "p": 0.002
+        },
+        "density_std": {
+          "beta": -0.326,
+          "se": 0.144,
+          "p": 0.0233
+        },
+        "diversity_std": {
+          "beta": 0.3,
+          "se": 0.156,
+          "p": 0.0539
+        },
+        "density_x_diversity": {
+          "beta": 0.085,
+          "se": 0.137,
+          "p": 0.5372
+        },
+        "log_ego_size": {
+          "beta": -0.535,
+          "se": 0.177,
+          "p": 0.0025
+        },
+        "log_experience": {
+          "beta": 0.282,
+          "se": 0.146,
+          "p": 0.0536
+        },
+        "year_2023": {
+          "beta": 0.073,
+          "se": 0.191,
+          "p": 0.7016
+        },
+        "year_2024": {
+          "beta": 0.352,
+          "se": 0.202,
+          "p": 0.0814
+        }
+      },
+      "model4": {
+        "const": {
+          "beta": -1.33,
+          "se": 0.412,
+          "p": 0.0012
+        },
+        "density_std": {
+          "beta": -0.401,
+          "se": 0.16,
+          "p": 0.0125
+        },
+        "diversity_std": {
+          "beta": 0.326,
+          "se": 0.143,
+          "p": 0.0228
+        },
+        "hq_in_africa": {
+          "beta": 0.153,
+          "se": 0.205,
+          "p": 0.4542
+        },
+        "density_x_african": {
+          "beta": 0.285,
+          "se": 0.19,
+          "p": 0.134
+        },
+        "log_ego_size": {
+          "beta": -0.546,
+          "se": 0.168,
+          "p": 0.0012
+        },
+        "log_experience": {
+          "beta": 0.268,
+          "se": 0.144,
+          "p": 0.0621
+        },
+        "year_2023": {
+          "beta": 0.053,
+          "se": 0.191,
+          "p": 0.7813
+        },
+        "year_2024": {
+          "beta": 0.348,
+          "se": 0.201,
+          "p": 0.0838
+        }
+      }
+    }
+  },
+  "split_sample": {
+    "international": {
+      "n": 606,
+      "beta": -0.549,
+      "se": 0.173,
+      "p": 0.0015
+    },
+    "african": {
+      "n": 295,
+      "beta": 0.241,
+      "se": 0.212,
+      "p": 0.256
+    },
+    "difference": {
+      "beta": 0.789,
+      "se": 0.274,
+      "z": 2.88,
+      "p": 0.0039
+    },
+    "full_results": {
+      "international": {
+        "const": {
+          "beta": -0.782,
+          "se": 0.494,
+          "p": 0.1135
+        },
+        "density_std": {
+          "beta": -0.549,
+          "se": 0.173,
+          "p": 0.0015
+        },
+        "diversity_std": {
+          "beta": 0.299,
+          "se": 0.189,
+          "p": 0.1137
+        },
+        "log_ego_size": {
+          "beta": -0.817,
+          "se": 0.218,
+          "p": 0.0002
+        },
+        "log_experience": {
+          "beta": 0.31,
+          "se": 0.19,
+          "p": 0.1034
+        },
+        "year_2023": {
+          "beta": 0.178,
+          "se": 0.242,
+          "p": 0.4635
+        },
+        "year_2024": {
+          "beta": 0.412,
+          "se": 0.273,
+          "p": 0.131
+        }
+      },
+      "african": {
+        "const": {
+          "beta": -2.243,
+          "se": 0.486,
+          "p": 0.0
+        },
+        "density_std": {
+          "beta": 0.241,
+          "se": 0.212,
+          "p": 0.256
+        },
+        "diversity_std": {
+          "beta": 0.316,
+          "se": 0.213,
+          "p": 0.1369
+        },
+        "log_ego_size": {
+          "beta": -0.091,
+          "se": 0.234,
+          "p": 0.6965
+        },
+        "log_experience": {
+          "beta": 0.295,
+          "se": 0.227,
+          "p": 0.1932
+        },
+        "year_2023": {
+          "beta": -0.194,
+          "se": 0.305,
+          "p": 0.526
+        },
+        "year_2024": {
+          "beta": 0.243,
+          "se": 0.295,
+          "p": 0.4114
+        }
+      }
+    }
+  },
+  "marginal_effects": {
+    "international_low_density": 0.153,
+    "international_high_density": 0.052,
+    "international_change_pp": -10.1,
+    "african_low_density": 0.13,
+    "african_high_density": 0.159,
+    "african_change_pp": 2.9
+  },
+  "robustness": {
+    "common_support": {
+      "n_intl": 606,
+      "n_african": 294,
+      "intl_beta": -0.548,
+      "intl_se": 0.173,
+      "african_beta": 0.255,
+      "african_se": 0.214,
+      "z": 2.92,
+      "p": 0.0035
+    },
+    "trim_10pct": {
+      "n_intl": 541,
+      "n_african": 264,
+      "intl_beta": -0.488,
+      "intl_se": 0.191,
+      "african_beta": 0.523,
+      "african_se": 0.247,
+      "african_p": 0.034,
+      "z": 3.24,
+      "p": 0.0012
+    },
+    "weighted": {
+      "n_intl": 606,
+      "n_african": 295,
+      "intl_beta": -0.7,
+      "intl_se": 0.141,
+      "african_beta": 0.188,
+      "african_se": 0.188,
+      "z": 3.78,
+      "p": 0.0002
+    }
+  }
+}

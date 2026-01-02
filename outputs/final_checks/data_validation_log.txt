@@ -1,0 +1,10 @@
+Data Validation Log - 2026-01-02 14:28:23
+======================================================================
+✓ Density values within expected bounds [0, 1.1]
+✓ HRV share values within [0, 1]
+✓ Outcome years: 2022-2024
+✓ Sample size: 901 VC-years
+✓ Unique investors: 558
+✓ HQ split: 606 International, 295 African
+
+✓ ALL VALIDATION CHECKS PASSED

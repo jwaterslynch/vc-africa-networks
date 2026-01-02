@@ -1,7 +1,7 @@
 
 \begin{table}[htbp]
 \centering
-\caption{Split-Sample Analysis: Network Density Effects by VC Headquarters Location}
+\caption{Split-Sample Analysis: Network Density Effects by VC Headquarters}
 \label{tab:split_sample}
 \begin{tabular}{lccc}
 \toprule
@@ -11,22 +11,18 @@ N & 606 & 295 & \\
 \midrule
 Density & $-0.549^{**}$ & $0.241$ & $0.789^{**}$ \\
  & (0.173) & (0.212) & (0.274) \\
-$p$-value & 0.002 & 0.256 & 0.004 \\
+$p$-value & 0.0015 & 0.256 & 0.0039 \\
 $z$-statistic & & & 2.88 \\
-\midrule
-Diversity & $0.299$ & $0.316$ & \\
- & (0.189) & (0.213) & \\
+
 \midrule
 Controls & Yes & Yes & \\
 Year FE & Yes & Yes & \\
-
 \bottomrule
 \end{tabular}
 \begin{tablenotes}
 \small
-\item \textit{Notes:} Fractional logit (GEE) with clustered standard errors by investor.
-Dependent variable is HRV share. Controls include log ego size and log experience.
-Difference test uses pooled standard error: $SE_{diff} = \sqrt{SE_1^2 + SE_2^2}$.
-$^{*}p<0.05$; $^{**}p<0.01$; $^{***}p<0.001$.
+\item \textit{Notes:} Fractional logit (GEE) with clustered SEs by investor.
+Difference test: $z = (\beta_{\text{African}} - \beta_{\text{Intl}}) / \sqrt{SE_{\text{African}}^2 + SE_{\text{Intl}}^2}$.
+$^{*}p<0.05$; $^{**}p<0.01$.
 \end{tablenotes}
 \end{table}

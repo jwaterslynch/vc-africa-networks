@@ -1,54 +1,104 @@
-# Environment
-.venv/
-venv/
-.env
-*.env
+# =====================================================
+# VC Africa Networks - Git Ignore
+# =====================================================
 
+# -----------------------
+# Proprietary Data (ATBD)
+# -----------------------
+# Raw purchased data - DO NOT COMMIT
+data/raw/
+data/raw/*.xlsx
+data/raw/*.csv
+
+# Processed data with investor identities
+data/processed/
+data/processed/*.parquet
+data/processed/*.csv
+
+# Any data backups
+data/*.bak
+data/*.backup
+
+# Interim data
+data/interim/*
+!data/interim/.gitkeep
+
+# -----------------------
 # Python
+# -----------------------
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-*.egg-info/
-dist/
 build/
+develop-eggs/
+dist/
+downloads/
 eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
 *.egg
 
-# Jupyter
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+.env
+*.env
+
+# -----------------------
+# Jupyter Notebooks
+# -----------------------
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
-# Data (raw data not committed)
-data/raw/*
-!data/raw/.gitkeep
-!data/raw/README.md
-
-# Interim data (usually not committed)
-data/interim/*
-!data/interim/.gitkeep
-
-# Processed data (optional: commit final outputs)
-# data/processed/*
-# !data/processed/.gitkeep
-
-# Logs
-logs/*
-!logs/.gitkeep
-*.log
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# IDE
+# -----------------------
+# IDE / Editor
+# -----------------------
 .idea/
 .vscode/
 *.swp
 *.swo
+*~
+.DS_Store
+Thumbs.db
 
-# Secrets
+# -----------------------
+# Testing
+# -----------------------
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# -----------------------
+# Logs
+# -----------------------
+*.log
+logs/*
+!logs/.gitkeep
+
+# -----------------------
+# Secrets / Credentials
+# -----------------------
 *.pem
 *.key
 credentials.json
+secrets.yaml
+
+# -----------------------
+# Large files
+# -----------------------
+*.zip
+*.tar.gz
+*.rar
