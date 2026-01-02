@@ -1,0 +1,8 @@
+Variable,Full Sample Mean,Full Sample SD,International Mean,International SD,African Mean,African SD,Diff p-value
+N,901,,606,,295,,
+HRV Share,0.122,(0.276),0.113,(0.274),0.142,(0.282),0.141
+Ego Density,0.574,(0.335),0.610,(0.340),0.501,(0.312),<0.001
+Diversity (combined),0.250,(0.807),0.175,(0.818),0.405,(0.762),<0.001
+Ego Size,20.018,(24.703),18.394,(22.340),23.353,(28.714),0.005
+Experience (cumulative deals),7.970,(13.881),6.922,(12.243),10.122,(16.568),0.001
+Deals in Year,3.073,(5.112),2.815,(4.647),3.603,(5.927),0.030
