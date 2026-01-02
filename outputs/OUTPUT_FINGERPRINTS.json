@@ -1,0 +1,128 @@
+{
+  "generated_at": "2026-01-02T20:04:19.867665",
+  "git_commit": "b93411a33dfdd7df142356aa4aec6c2c0dbd11f4",
+  "tables": [
+    {
+      "filename": "main_results.tex",
+      "size_bytes": 1367,
+      "sha256": "a185b2ea1d8b95b208f28ee1b6a64c5d6d6258b645888988e8d5572082de80eb"
+    },
+    {
+      "filename": "table1_descriptives.tex",
+      "size_bytes": 1136,
+      "sha256": "f2de5b4561854bf88478a0a72e17d05eeda51a6096b59bbdc79d2ac7d8c66478"
+    },
+    {
+      "filename": "table2_main_results.tex",
+      "size_bytes": 1601,
+      "sha256": "683f9bc7c4ba762215acbd0de0c4b4ec519951c290b24a6b72b616ac643f8750"
+    },
+    {
+      "filename": "table2_pooled_models.tex",
+      "size_bytes": 1482,
+      "sha256": "d23a9a6bfd43526db3d07c6c630cbe6d37e392dce10785babb0d5dd025fbd0e2"
+    },
+    {
+      "filename": "table3_split_sample.tex",
+      "size_bytes": 774,
+      "sha256": "88c1c468b6154713c00df24eb3653c9ecaa6fca5cde6be3d0a93bdc13de8f498"
+    },
+    {
+      "filename": "tableA2_common_support.tex",
+      "size_bytes": 921,
+      "sha256": "9007f7b19b5a9a07e0837947a721c139d7f06e5d9b14c4962367985e7f017b5f"
+    },
+    {
+      "filename": "main_results.csv",
+      "size_bytes": 2082,
+      "sha256": "57cf54bacb82c420a995af6666a5475bc608e37bee5bbb611dbd32af943cf81e"
+    },
+    {
+      "filename": "robustness_summary.csv",
+      "size_bytes": 621,
+      "sha256": "a50ae7b8712c7afb81b74487bc01283224cc90419eeaeea17b0b2538864af398"
+    },
+    {
+      "filename": "table1_descriptives.csv",
+      "size_bytes": 453,
+      "sha256": "44f7ad04cea220e6486763f644c8508128cc09e91f7a1cbb01f463ebb15cce8f"
+    },
+    {
+      "filename": "table2_main_results.csv",
+      "size_bytes": 2049,
+      "sha256": "d46279a0686bf2b3f6c36ba2d0205c0493a204e2e6de163eae97f5d4dd601414"
+    },
+    {
+      "filename": "table2_pooled_models.csv",
+      "size_bytes": 831,
+      "sha256": "5e432b0b79d4976209d3de6935dbb4dcc7a22610471232355e45b893b6939a4d"
+    },
+    {
+      "filename": "table3_split_sample.csv",
+      "size_bytes": 155,
+      "sha256": "e8272e90f96041c68bbafae6aa6c91b8a2ad5f375f4b1af486a5295d8d012223"
+    },
+    {
+      "filename": "tableA2_common_support.csv",
+      "size_bytes": 321,
+      "sha256": "4b91fef4181b7b65d711894958639e089656bdefe48e9b1af26b35173463717b"
+    }
+  ],
+  "figures": [
+    {
+      "filename": "coefficient_by_year.png",
+      "size_bytes": 145454,
+      "sha256": "e5a0dd40c2ad3987c94393704842cab3b113b34c00792f6244c7d128de6d852e"
+    },
+    {
+      "filename": "density_distribution_by_type.png",
+      "size_bytes": 137827,
+      "sha256": "a20c7b5356ecc19c4b076dec8beb1dd4a95c537612aff1347e7b157c561397ec"
+    },
+    {
+      "filename": "distributions.png",
+      "size_bytes": 250178,
+      "sha256": "d457cda7bfe7d453030dfac16a2e72dba1b7b4c6cc25381ad691838f873d860e"
+    },
+    {
+      "filename": "figure1_bar_version.png",
+      "size_bytes": 192440,
+      "sha256": "daa8f1c21db21d8f908ea3aa3efa371d066d4e493df680e810aa90d0690495ab"
+    },
+    {
+      "filename": "figure1_marginal_effects.png",
+      "size_bytes": 187181,
+      "sha256": "d23c7ab94a9a55bc7917d14e95f0cbcc102d68bf445a194c52e6eff09e76955e"
+    },
+    {
+      "filename": "interaction_plot.png",
+      "size_bytes": 266045,
+      "sha256": "0a6dedc6f58591bc258216717b7cba09755389b3c0ada0a81fa86778ac6cfad7"
+    },
+    {
+      "filename": "marginal_effects_by_vc_type.png",
+      "size_bytes": 108881,
+      "sha256": "1c732724f94b9377c0380947ba02c8e4f0e09fd2edce42aa296728b25518caa5"
+    },
+    {
+      "filename": "robustness_forest.png",
+      "size_bytes": 136964,
+      "sha256": "49355a2f9f3750f4094898800762011c27daafaf18f8222ce60ab64479af857b"
+    },
+    {
+      "filename": "robustness_heterogeneity_forest.png",
+      "size_bytes": 144098,
+      "sha256": "2d6c1e8b835e9d7c6d3eaae2fb20b4ef63e073708a87f5889780cd9f9514b8fb"
+    },
+    {
+      "filename": "figure1_marginal_effects.pdf",
+      "size_bytes": 35476,
+      "sha256": "c3d413808bdad547ba805b5473ce0d0d64fec8c16e24b62b72daa815f3c35bea"
+    }
+  ],
+  "paper_numbers": {
+    "filename": "paper_numbers.json",
+    "size_bytes": 7342,
+    "sha256": "c8c90e067180aa552455ec5d360f7ee26712e729450754632994d124545c4f69"
+  }
+}

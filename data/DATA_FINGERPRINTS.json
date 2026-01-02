@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-01-02T20:04:17.800988",
+  "git_commit": "b93411a33dfdd7df142356aa4aec6c2c0dbd11f4",
+  "git_status": "modified",
+  "environment": {
+    "python": "3.9.6",
+    "pandas": "2.2.3",
+    "numpy": "1.26.4",
+    "statsmodels": "0.14.5",
+    "networkx": "3.2.1",
+    "scipy": "1.12.0",
+    "matplotlib": "3.9.4",
+    "seaborn": "0.13.2"
+  },
+  "raw_data": {
+    "filename": "atbd_2019_2025_20251201.xlsx",
+    "expected_pattern": "*Africa*Big*Deal*.xlsx",
+    "size_bytes": 3375104,
+    "sha256": "290ab287b537132008bfb791a7b8842566e4623167ac7d10ac000bcf41f1cfeb",
+    "modified": "2026-01-01T20:27:13.964626",
+    "source": "Africa: The Big Deal (https://thebigdeal.com/database)",
+    "license": "Individual License - redistribution prohibited"
+  },
+  "processed_data": [
+    {
+      "filename": "deals_with_hrv.parquet",
+      "size_bytes": 304624,
+      "sha256": "39429999495e36b4e85bb8f934b484db76d6803598bde4bf36985638b53a246d"
+    },
+    {
+      "filename": "vc_year_panel.parquet",
+      "size_bytes": 187184,
+      "sha256": "a8b40c35ed136a332b8cbc9c07de854ab39bc84d7787ad9692178f915da9dafa"
+    }
+  ]
+}
